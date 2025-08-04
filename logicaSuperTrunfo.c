@@ -165,6 +165,7 @@ int main() {
        printf("Atributo escolhido: Nome da cidade\n");
        printf("Primeira carta: %s\n", cidade1);
        printf("Segunda carta: %s\n", cidade2);
+    break;
     
     case 2:
         printf("Atributo escolhido: População\n");
