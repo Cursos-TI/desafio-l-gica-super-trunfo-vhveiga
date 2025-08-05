@@ -224,6 +224,7 @@ int main() {
     // Evita escolher o mesmo atributo
     if (escolha2 == escolha1) {
         printf("Você escolheu o mesmo atributo, tente novamente.\n");
+         return 1; // Encerra o programa se o usuário escolher o mesmo atributo
     } 
     //Compara o segundo atributo
     else {
